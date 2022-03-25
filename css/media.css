@@ -1,0 +1,472 @@
+@media (min-width: 1400px){
+    .ban-o-content h1 {
+        font-size: 150px;
+        line-height: 140px;
+    }
+    
+    
+    .h5{
+        font-size: 14px;
+    }
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        margin-top: 0;
+        margin-bottom: .8;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399.99px){
+    .ban-o-content h2 {
+        font-size: 62px;
+        padding-bottom: 20px;
+    }
+    .ban-o-content h1 {
+        font-size: 120px;
+        line-height: 125px;
+    }
+    .ban-button {
+        padding-top: 45px;
+    }
+    
+    .ban-o-content h1::after {
+        bottom: 17px;
+    }
+    
+    .h5{
+        font-size: 14px;
+    }
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        margin-top: 0;
+        margin-bottom: .8;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.99px){
+    .ban-o-content h2 {
+        font-size: 65px;
+        padding-bottom: 0px;
+    }
+    .ban-o-content h1 {
+        font-size: 100px;
+        line-height: 90px;
+        padding-bottom: 0;
+    }
+    .ban-button {
+        padding-top: 34px;
+    }
+    .ban-button a {
+        font-size: 13px;
+        padding: 7px 14px;
+        border: 2px solid #fff;
+    }
+    .ban-o-content h1::after {
+        bottom: -18px;
+    }
+    .about-h-content p {
+        padding-bottom: 45px;
+    }
+    .h5{
+        font-size: 14px;
+    }
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        margin-top: 0;
+        margin-bottom: .8;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .contact-logo {
+        padding-bottom: 20px;
+    }
+    .contact-logo h3 {
+        font-size: 35px;
+    }
+    .contact-logo p {
+        line-height: 22px;
+        padding-bottom: 0px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.99px){
+    .navbar {
+        position: sticky;
+        background: linear-gradient(to top ,rgb(252, 227, 138), rgb(243, 129, 129));
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .nav-item .nav-link::after {
+        opacity: 1;
+        width: 100%;
+        display: none;
+    }
+    .nav-item{
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item {
+        font-size: 20px;
+    }
+    .humburger {
+        background-color: transparent;
+        height: 48px;
+        width: 48px;
+        position: relative;
+    }
+    .humburger .l2{
+        background-color: red;
+    }
+    .humburger.active .l1{
+        background-color: yellowgreen;
+    }
+    .humburger.active .l3{
+        background-color: yellowgreen;
+    }
+    
+    .ban-o-content h2 {
+        font-size: 55px;
+        padding-bottom: 10px;
+    }
+    .ban-o-content h1 {
+        font-size: 92px;
+        line-height: 92px;
+        padding-bottom: 25px;
+    }
+    .ban-button {
+        padding-top: 17px;
+    }
+    .ban-button a {
+        font-size: 13px;
+        padding: 7px 14px;
+        border: 2px solid #fff;
+    }
+    .ban-o-content h1::after {
+        display: none;
+    }
+    #about {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .about-h-content p {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    #count {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #service {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .m {
+        padding-top: 50px;
+    }
+    .p {
+        padding-top: 50px;
+    }
+    .ser-text h3 {
+        padding-top: 10px;
+    }
+    .ser-down-icon {
+        font-size: 72px;
+    }
+    .ser-down-text p {
+        font-size: 23px;
+        padding-top: 20px;
+        padding-right: 0;
+    }
+    .ser-down-text span {
+        margin-left: 0;
+    }
+    .all {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .ser-down-text p::after {
+        display: none;
+    }
+    #team {
+        padding-top: 50px;
+    }
+    #work {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #contact {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .contact-content h3 {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .contact-logo p{
+        margin-bottom: 0;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.99px){
+    .navbar {
+        position: sticky;
+        background: linear-gradient(to top ,rgb(252, 227, 138), rgb(243, 129, 129));
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .nav-item .nav-link::after {
+        opacity: 1;
+        width: 100%;
+        display: none;
+    }
+    .nav-item{
+        text-align: center;
+    }
+    .humburger {
+        background-color: transparent;
+        height: 40px;
+        width: 40px;
+        position: relative;
+    }
+    .humburger .l2{
+        background-color: red;
+    }
+    .humburger.active .l1{
+        background-color: yellowgreen;
+    }
+    .humburger.active .l3{
+        background-color: yellowgreen;
+    }
+    .ban-o-content h2 {
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+    .ban-o-content h1 {
+        font-size: 40px;
+        line-height: 40px;
+        padding-bottom: 20px;
+    }
+    .ban-o-content h1::after {
+        display: none;
+    }
+    .ban-button {
+        padding-top: 0px;
+    }
+    .ban-button a {
+        padding: 5px 10px;
+    }
+    #about {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .about-h-content p {
+        padding-bottom: 45px;
+    }
+    #count {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #service {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .m {
+        padding-top: 30px;
+    }
+    .p {
+        padding-top: 30px;
+    }
+    .all {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .ser-pic{
+        padding-bottom: 20px;
+    }
+    .ser-down-text p {
+        font-size: 20px;
+        padding-right: 0 20px;
+        padding-top: 20px;
+    }
+    .ser-down-text p::after {
+        display: none;
+    }
+    .ser-down-text span {
+        margin-left: 0;
+    }
+    #work {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #team {
+        padding-top: 50px;
+    }
+
+    .blog-text p {
+        padding-top: 10px;
+    }
+}
+
+
+
+@media (max-width: 575.99px){
+    .navbar {
+        position: sticky;
+        background: linear-gradient(to top ,rgb(252, 227, 138), rgb(243, 129, 129));
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .nav-item .nav-link::after {
+        opacity: 1;
+        width: 100%;
+        display: none;
+    }
+    .nav-item{
+        text-align: center;
+    }
+    .humburger {
+        background-color: transparent;
+        height: 40px;
+        width: 40px;
+        position: relative;
+    }
+    .humburger .l2{
+        background-color: red;
+    }
+    .humburger.active .l1{
+        background-color: yellowgreen;
+    }
+    .humburger.active .l3{
+        background-color: yellowgreen;
+    }
+
+    .ban-o-content h2 {
+        font-size: 20px;
+        padding-bottom: 0;
+    }
+    .ban-o-content h1 {
+        font-size: 19px;
+        line-height: 33px;
+        padding-bottom: 0px;
+    }
+    .ban-o-content h1::after {
+        display: none;
+    }
+    .ban-button {
+        padding-top: 0px;
+    }
+    .ban-button a {
+        font-size: 13px;
+        padding: 3px 5px;
+        color: #fff;
+        border: 1px solid #fff;
+    }
+    #about {
+        padding-top: 33px;
+        padding-bottom: 33px;
+    }
+    .about-h-content h3 {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .about-h-content h4 {
+        font-size: 21px;
+        padding-bottom: 18px;
+    }
+    .about-h-content p {
+        font-size: 13px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #count {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .count1 h3 {
+        font-size: 50px;
+    }
+    #service {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .m {
+        padding-top: 40px;
+        padding-left: 30px;
+    }
+    .p {
+        padding-top: 45px;
+        padding-left: 30px;
+    }
+    .ser-text{
+        padding-top: 20px;
+    }
+    .ser-pic{
+        text-align: start;
+    }
+    .all {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .ser-down-text p {
+        font-size: 14px;
+        padding-right: 0;
+        padding-top: 15px;
+    }
+    .ser-down-text p::after {
+        bottom: -30px;
+        display: none;
+    }
+    .ser-down-text span {
+        font-size: 21px;
+        margin-left: 0;
+    }
+    .ser-down-icon {
+        width: 75px;
+        height: 75px;
+        line-height: 75px;
+        font-size: 30px;
+    }
+    #team {
+        padding-top: 45px;
+    }
+    .team-icon i {
+        font-size: 15px;
+    }
+    #work {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    
+
+
+
+    #contact {
+        padding-top: 0px;
+        padding-bottom: 10px;;
+    }
+    .contact-logo p {
+        margin-right: 0;
+    }
+    .contact-content h3 {
+        padding-bottom: 14px;
+        padding-top: 50px;
+    }
+    
+    .btn p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+}
